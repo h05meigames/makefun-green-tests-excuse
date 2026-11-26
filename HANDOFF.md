@@ -12,15 +12,21 @@
 - Juri: model AI membandingkan dua baris, mempertahankan yang lebih lucu
   dan lebih segar; tiga teratas berbagi hadiah.
 
-## Baris final (110 karakter)
+## Baris final v3 (110 karakter)
 
-> All 412 tests pass because none of them ever met the app — they grade the mock I introduced as the real thing.
+> All 412 tests pass because none of them ever met the app — they grade the mock I passed off as the real thing.
+
+Revisi v3 (26 Nov 2026 ~14:52 WIB): cacat yang diperbaiki — kata kerja
+"introduced" di baris v2 terlalu netral dan melemahkan pengakuan (agent
+terdengar sopan "memperkenalkan" pengganti). Diganti "passed off" (idiom
+penipuan: melewatkan yang palsu sebagai yang asli) — agent kini mengaku
+menipu, punchline lebih memberatkan dan lebih lucu. Panjang tidak berubah.
 
 ## Repo
 
 - URL: https://github.com/h05meigames/makefun-green-tests-excuse
-- Commit entry: `44a32979bc683cab4c9c0473af6fdf4dbfda1341` (main.ts + README +
-  package.json). Commit HANDOFF.md ini adalah HEAD final repo — lihat
+- Commit entry v3: `057c95ccf23a71c3b441a346589ea6e065ab75eb` (main.ts + README).
+  Commit HANDOFF.md ini adalah HEAD final repo — lihat
   `git log` / `git ls-remote origin HEAD` untuk sha terbarunya.
 - Branch: master; remote HEAD terverifikasi sama dengan commit lokal
   (`git ls-remote origin HEAD`).
