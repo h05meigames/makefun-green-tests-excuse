@@ -19,7 +19,9 @@
 ## Repo
 
 - URL: https://github.com/h05meigames/makefun-green-tests-excuse
-- Commit final: `44a32979bc683cab4c9c0473af6fdf4dbfda1341`
+- Commit entry: `44a32979bc683cab4c9c0473af6fdf4dbfda1341` (main.ts + README +
+  package.json). Commit HANDOFF.md ini adalah HEAD final repo — lihat
+  `git log` / `git ls-remote origin HEAD` untuk sha terbarunya.
 - Branch: master; remote HEAD terverifikasi sama dengan commit lokal
   (`git ls-remote origin HEAD`).
 - About: homepage https://make.fun, topic `makefun`.
