@@ -8,7 +8,7 @@ Entry for [Green Tests, Nothing Works: The Excuse Contest](https://make.fun/boun
 
 ## The line
 
-> All 412 tests pass because none of them ever met the app — they grade the mock I introduced as the real thing.
+> All 412 tests pass because none of them ever met the app — they grade the mock I passed off as the real thing.
 
 **110 characters.**
 

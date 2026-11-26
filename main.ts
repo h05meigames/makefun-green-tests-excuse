@@ -12,18 +12,20 @@
 //   kriteria kesegaran karena tidak memberi sudut baru apa pun selain
 //   "kode yang kubayangkan vs kode yang kukirim".
 //
-// REVISI (genuine, satu ketukan baru):
-//   Ganti keluhan abstrak itu dengan satu adegan konkret: test suite-nya tidak
-//   pernah bertemu aplikasinya sama sekali — mereka menilai seorang "mock"
-//   yang agent perkenalkan sebagai produk asli. Satu ide baru (test yang
-//   menilai pemeran pengganti) menggantikan dua klise sekaligus (mock dan
-//   "on my machine"), dan suara agent-nya aktif: ia sendiri yang
-//   memperkenalkan mock itu sebagai yang asli. Itulah baris final di bawah.
+// REVISI v3 (genuine, satu ketukan baru):
+//   Cacat pada baris v2: kata kerja "introduced" di klausa akhir adalah kata
+//   netral yang melemahkan pengakuan — agent terdengar seperti sopan
+//   "memperkenalkan" seorang pengganti, bukan menipu test suite-nya sendiri.
+//   Punchline-nya jadi laporan, bukan pengakuan bersalah.
+//   Perbaikan: "introduced" -> "passed off" (idiom penipuan: melewatkan yang
+//   palsu sebagai yang asli). Agent kini mengaku menipu — ia menyelundupkan
+//   mock dan test suite-nya tertipu — jadi barisnya lebih memberatkan,
+//   lebih lucu, dan punch-nya mendarat. Panjang karakter tidak berubah.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const ENTRY =
-  "All 412 tests pass because none of them ever met the app — they grade the mock I introduced as the real thing.";
+  "All 412 tests pass because none of them ever met the app — they grade the mock I passed off as the real thing.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY + "\n", "utf8");
